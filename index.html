@@ -26,10 +26,10 @@
   // Date actuelle
   const now = new Date("2025-05-16T17:30:00");
   // Date dans 3 semaines (21 jours)
-  const targetDate = new Date(now.getTime() + 21 * 24 * 60 * 60 * 1000);
+  const targetDate = new Date(now + 21 * 24 * 60 * 60 * 1000);
 
   function updateCountdown() {
-    const now = new Date().getTime();
+    const now = new Date();
     const distance = targetDate - now;
 
     if (distance <= 0) {
