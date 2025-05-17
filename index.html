@@ -26,7 +26,7 @@
   const startDate = new Date("2025-05-17T18:30:00");
 
   // Date cible = 3 semaines (21 jours) après cette date
-  const targetDate = new Date(startDate.getTime() + 21 * 24 * 60 * 60 * 1000);
+  const targetDate = new Date(startDate + 21 * 24 * 60 * 60 * 1000);
 
   function updateCountdown() {
     const now = new Date().getTime(); // on recalcule l'heure actuelle
