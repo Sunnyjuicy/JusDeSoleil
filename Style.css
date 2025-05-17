@@ -6,7 +6,7 @@ body {
   background-color: #001f3f;   /* FOND Bleu */
   color: #FF5F1F;              /* TEXTE Orange */
   text-shadow: 2px 2px 5px #333;
-  font-family: "Bungee Spice", sans-serif;
+  font-family: Bungee Spice, sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
